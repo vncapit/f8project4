@@ -27,3 +27,16 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+}
+
+/* Header */
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
